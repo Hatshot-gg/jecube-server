@@ -13,7 +13,7 @@ setupSwagger(app);
 const router = require("./routes");
 
 const corsOptions = {
-  origin: "https://jecube-client.vercel.app/",
+  origin: "https://jecube-client.vercel.app",
   credentials: true,
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
